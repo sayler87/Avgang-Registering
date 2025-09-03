@@ -1,0 +1,12 @@
+transportsystem/
+│
+├── frontend/
+│   └── index.html          ← Din app, med sync-til-server
+│
+├── backend/
+│   ├── server.js           ← Express-server med API
+│   └── data/
+│       └── departures.json ← Lagrede avganger (opprettes automatisk)
+│
+├── package.json            ← For backend
+└── README.md
